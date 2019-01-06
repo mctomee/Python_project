@@ -1,5 +1,6 @@
 #Lista elemek konkatenálása
-words = ["Hello", "world", "!"]
+words = ["Hello","!"]
+words.insert(1,"world")
 x=input("Hanyszor irja ki?")
 i=1
 while i<=int(x):
